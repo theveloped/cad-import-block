@@ -1,0 +1,23 @@
+{
+    "name": "cad-import-block",
+    "description": "Custom airtable block that can be used to process CAD files (.stp/.step).",
+    "version": "1.0.0",
+    "author": "Tobias Scheepers",
+    "license": "MIT",
+    "dependencies": {
+        "@airtable/blocks": "0.0.53",
+        "axios": "^0.19.2",
+        "jsonpath-plus": "^4.0.0",
+        "react": "^16.9.0",
+        "react-dom": "^16.9.0",
+        "react-dropzone": "^11.0.1"
+    },
+    "devDependencies": {
+        "eslint": "^6.3.0",
+        "eslint-plugin-react": "^7.14.3",
+        "eslint-plugin-react-hooks": "^2.0.1"
+    },
+    "scripts": {
+        "lint": "eslint frontend"
+    }
+}
